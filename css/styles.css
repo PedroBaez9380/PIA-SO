@@ -78,3 +78,47 @@ footer {
     padding: 20px;
     text-align: justify;
 }
+
+/* Interfaces */ 
+#interfaces {
+    padding: 20px;
+}
+
+.imagen-texto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-con-texto {
+    text-align: center;
+    margin: 20px;
+    flex: 1; /* Ocupa el 50% del espacio disponible en una fila */
+    max-width: 500px; /* Ajusta el ancho máximo según sea necesario */
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el título (h3) */
+.imagen h3 {
+    margin-top: 10px;
+    font-size: 18px; /* Ajusta el tamaño del título según sea necesario */
+}
+
+.imagen p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#interfaces h2{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
