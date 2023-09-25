@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para el logo */
+.logo img {
+    max-width: 70px;
+    height: auto;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #0078d4;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+#historia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.historia-image {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.historia-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.historia-text h2{
+    text-align: center;
+}
+
+.historia-text {
+    flex: 2;
+    padding: 20px;
+    text-align: justify;
+}
