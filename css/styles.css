@@ -143,3 +143,90 @@ footer {
 }
 
 
+/* Pagina de Features */
+#caracteristicas h2{
+    text-align: center;
+    color:#ff681f; 
+}
+
+.fullscreen-image {
+    width: 100%;
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor manteniendo la relación de aspecto */
+    margin: 0; /* Elimina los márgenes si los hubiera */
+    padding: 0; /* Elimina el relleno si lo hubiera */
+}
+
+/* Estilos para el formulario de sugerencias */
+#formulario-sugerencias {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 70px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Agregamos esto para que el fondo se extienda por completo */
+}
+
+/* Estilos para el fondo del formulario */
+#formulario-sugerencias:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f4f4f4; /* Usa el mismo color de fondo del formulario */
+    z-index: -1;
+}
+
+/* Estilos para el contenido del formulario */
+#formulario-sugerencias-content {
+    position: relative; /* Necesario para que el z-index funcione */
+}
+
+#formulario-sugerencias h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#formulario-sugerencias input[type="text"],
+#formulario-sugerencias input[type="email"],
+#formulario-sugerencias textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#formulario-sugerencias input[type="file"] {
+    margin-top: 10px;
+}
+
+#formulario-sugerencias input[type="submit"] {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario-sugerencias input[type="submit"]:hover {
+    background-color: #005ba2;
+}
+
+/* Estilos para el mensaje de confirmación (puedes mostrarlo después del envío) */
+#confirmacion {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    display: none; /* Oculto por defecto, puedes mostrarlo con JavaScript después del envío */
+}
