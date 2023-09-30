@@ -122,3 +122,24 @@ footer {
     text-align: justify;
 }
 
+/* Section de diferencias */
+#diferencias h2 {
+    color: red;
+
+}
+
+#diferencias h3 {
+    color: blue;
+    text-align: right;
+}
+
+#diferencias ul {
+    text-align: right;
+    list-style: none;
+}
+
+.windows98, .windowsnt {
+    margin-top: 60px;
+}
+
+
