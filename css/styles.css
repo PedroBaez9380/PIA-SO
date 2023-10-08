@@ -230,3 +230,154 @@ footer {
     text-align: center;
     display: none; /* Oculto por defecto, puedes mostrarlo con JavaScript después del envío */
 }
+
+
+/*Estilos para contacto*/
+.squares-wrapper{
+    display: flex;
+    justify-content: center;
+     }
+    
+.squares-wrapper > .squares{
+     width: 1000px;
+}
+    
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+    
+.square > .img-wrapper img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+    
+.square > .square-text-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+    
+.square > .square-text-wrapper h1{
+    color: #cea135;
+}
+
+/* Header section styles */
+
+.header-section{
+    background-image:url(img/cli-vs-gui.png);
+    padding:100px;
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+    
+.header-section > .top-heading{
+    padding:1px 20px;
+    background-color: #1018e9;
+    color: #cbcbcb;
+    width: 500px;
+    border-radius: 2px;
+}
+    
+.header-section> .bottom-heading{
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 170px;
+    border-radius: 2px;
+}
+    
+/* Interface section styles */
+    
+    
+.interface-section{
+    height: 400px;
+    background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
+    background-color: #cea135;
+    border-top: 10px solid white;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+    
+.interface-section> .columns-wrapper{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+.interface-section> .columns-wrapper> .column{
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.interface-section> .columns-wrapper> .column:hover{
+    border-bottom: 5px solid #11122b;
+}
+    
+.interface-section > .columns-wrapper> .column :nth-child(1){
+    font-size: 3em;
+}
+    
+.interface-section > .columns-wrapper > .column :nth-child(2){
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+    
+.interface-section > .columns-wrapper > .column :nth-child(2):hover{
+    letter-spacing: 1px;
+}
+    
+.interface-section > .columns-wrapper > .column :nth-child(3){
+    letter-spacing: 2px;
+}
+
+/* Page container styles */
+.page-container > .content-wrapper > .square {
+    display: flex;
+}
+
+.page-container > .content-wrapper > .square p{
+    margin-top: 50px;
+}
+
+.page-container{
+    display: flex;
+    justify-content: center;
+}
+    
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+    
+.page-container > .content-wrapper > .square > #cli-gui {
+    width: 350px;
+    margin: 25px;
+    float: left;
+    margin: 25px 40px 20px 0px;
+    border: 1px solid #cea135;
+}
+    
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
